@@ -1163,7 +1163,7 @@ if __name__ == "__main__":
     uvicorn.run(
         "main:app",
         host="0.0.0.0", 
-        port=8000, 
-        reload=False,
-        workers=1  # Use single worker to avoid MediaPipe conflicts
+        port=10000, 
+       # Use single worker to avoid MediaPipe conflicts
     )
+
